@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    padding:20px;
+    background:linear-gradient(to left , rgb(31, 11, 55), rgb(214, 215, 220));
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    margin-top:10px;
+}
+
+a{
+    text-decoration:none;
+}
+
+section{
+    margin-top:30px;
+}
+
+article{
+    margin-top:15px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    max-width:500px;
+}
+
+input,
+textarea,
+button{
+    padding:10px;
+}
+
+footer{
+    margin-top:40px;
+}
